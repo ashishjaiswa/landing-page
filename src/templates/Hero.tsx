@@ -8,8 +8,9 @@ import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
 import { Logo } from './Logo';
 
 const Hero = () => (
-  <Background color="bg-gradient-to-r from-cyan-300 to-slate-100  ">
-    <Section yPadding="py-6">
+  <Background color="bg-gradient-to-r from-cyan-300 to-slate-100 sm:h-full h-screen ">
+    
+    <Section yPadding="py-6 ">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
           {/* <Link href="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template">

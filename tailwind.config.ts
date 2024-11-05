@@ -1,7 +1,7 @@
 module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
   theme: {
-
+    
     fontSize: {
       xs: '0.75rem',
       sm: '0.875rem',
@@ -15,6 +15,9 @@ module.exports = {
       '6xl': '4rem',
     },
     extend: {
+      backgroundImage: {
+        'hero-pattern': "url('/public/assets/images/header.webp')",
+      },
       colors: {
         primary: {
           100: '#E6F6FE',
