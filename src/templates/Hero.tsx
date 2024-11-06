@@ -8,9 +8,9 @@ import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
 import { Logo } from './Logo';
 
 const Hero = () => (
-  <Background color="bg-gradient-to-r from-cyan-300 to-slate-100 sm:h-full h-screen ">
+  <Background color="bg-gradient-to-r from-cyan-300 to-slate-100  h-screen md:bg-header-pattern bg-cover repeat-no    ">
     
-    <Section yPadding="py-6 ">
+    <Section yPadding="py-6 mx-8 ">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
           {/* <Link href="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template">
@@ -22,9 +22,10 @@ const Hero = () => (
         </li>
       </NavbarTwoColumns>
     </Section>
-<div className="   ">
+<div className='flex h-full  justify-between '  >
 
-    <Section yPadding="pt-10 pb-32">
+
+    <Section yPadding="mx-8 self-center    ">
       <HeroOneButton
         title={
           <>
@@ -39,7 +40,9 @@ const Hero = () => (
         }
         />
     </Section>
+        <img className=' md:flex hidden' src='/assets/images/hero-one.svg'/>
         </div>
+
   </Background>
 );
 

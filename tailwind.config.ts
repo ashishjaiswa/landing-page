@@ -1,5 +1,8 @@
 module.exports = {
-  content: ['./src/**/*.{js,ts,jsx,tsx}'],
+  content: [
+    './src/**/*.{js,ts,jsx,tsx}',  // Scan JS, TS, JSX, and TSX files in the 'src' directory
+    './public/index.html',         // Optionally add if you're using static HTML files
+  ],
   theme: {
     
     fontSize: {
@@ -16,7 +19,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'hero-pattern': "url('/public/assets/images/header.webp')",
+        'header-pattern': "url('/assets/images/header.webp')",
       },
       colors: {
         primary: {
