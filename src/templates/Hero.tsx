@@ -10,7 +10,7 @@ import { Logo } from './Logo';
 const Hero = () => (
   <Background color="bg-gradient-to-r from-cyan-300 to-slate-100  h-screen md:bg-header-pattern bg-cover repeat-no    ">
     
-    <Section yPadding="py-6 mx-8 ">
+    <Section yPadding="py-6  " mx='mx-8'>
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
           {/* <Link href="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template">
@@ -25,7 +25,7 @@ const Hero = () => (
 <div className='flex h-full  justify-between '  >
 
 
-    <Section yPadding="mx-8 self-center    ">
+    <Section yPadding=" self-center    " mx='mx-8'>
       <HeroOneButton
         title={
           <>
