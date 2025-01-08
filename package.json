@@ -9,11 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "antd": "^5.23.0",
     "classnames": "^2.5.1",
     "next": "15.0.2",
     "next-seo": "^6.6.0",
     "react": "19.0.0-rc-02c0e824-20241028",
-    "react-dom": "19.0.0-rc-02c0e824-20241028"
+    "react-dom": "19.0.0-rc-02c0e824-20241028",
+    "swiper": "^11.2.0"
   },
   "devDependencies": {
     "@types/node": "^20",
