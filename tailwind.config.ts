@@ -19,7 +19,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'header-pattern': "url('/assets/images/header.webp')",
+        'header-pattern': "url('/assets/images/nasa-Q1p7bh3SHj8-unsplash.jpg')",
       },
       colors: {
         primary: {
