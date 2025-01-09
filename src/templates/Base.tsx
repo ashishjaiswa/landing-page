@@ -1,4 +1,4 @@
-import Testimonials from '@/components/Testimonials';
+import {Testimonials} from '@/components/Testimonials';
 import { Meta } from '../layout/Meta';
 import { AppConfig } from '../utils/AppConfig';
 // import { Banner } from './Banner';
