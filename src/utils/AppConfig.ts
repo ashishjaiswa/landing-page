@@ -1,6 +1,6 @@
 export const AppConfig = {
   site_name: 'ACS',
-  title: 'Home',
+  title: 'Home -ACS',
   description: 'Ashoka consultancy services',
   locale: 'en',
 };
