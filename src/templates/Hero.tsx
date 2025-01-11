@@ -37,7 +37,15 @@ const Hero = () => (
 
 
       <Section yPadding=" md:self-center  flex w-full  gap-5 md:flex-row flex-col  " mx=''>
-        <HeroOneButton
+        
+        
+        <img 
+            src="/assets/gif/ASHOKA.gif"
+            alt="Animated GIF" 
+            className='w-full sm:w-4/5 md:w-full self-center rounded-xl overflow-hidden'
+        // Optional styling
+      />
+      <HeroOneButton
           title={
             <>
               {'Innovative Solutions for Your Business\n'}
@@ -50,13 +58,6 @@ const Hero = () => (
             </Link>
           }
         />
-        
-        <img 
-            src="/assets/gif/ASHOKA.gif"
-            alt="Animated GIF" 
-            className='w-full sm:w-4/5 md:w-full self-center rounded-xl overflow-hidden'
-        // Optional styling
-      />
 
           
       </Section>
