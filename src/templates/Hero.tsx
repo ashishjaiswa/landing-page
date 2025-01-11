@@ -8,24 +8,35 @@ import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
 import { Logo } from './Logo';
 
 const Hero = () => (
-  <Background color=" from-cyan-300 to-slate-100  h-screen bg-header-pattern bg-cover repeat-no    ">
 
-    <Section yPadding="py-6  " mx='mx-8'>
-      <NavbarTwoColumns logo={<Logo xl />}>
-        <li>
-          {/* <Link href="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template">
-            
-          </Link> */}
-        </li>
-        <li>
-          {/* <Link href="/">Sign in</Link> */}
-        </li>
-      </NavbarTwoColumns>
-    </Section>
-    <div className='flex h-full  justify-between '  >
+  <Background color=" from-cyan-300 to-slate-100  h-screen bg-header-pattern  bg-cover repeat-no    ">
+    <div className='flex w-full  justify-center  '  >
+
+      <Section yPadding="  w-full  " mx='mx-8'>
+        <NavbarTwoColumns logo={<Logo xl />}>
+          <li>
+            <Link href="/service">
+              Service
+            </Link>
+          </li>
+          <li>
+            <Link href="/about">
+              About
+            </Link>
+          </li>
+          <li>
+            <Link href="contact">
+              Contact
+            </Link>
+          </li>
+
+        </NavbarTwoColumns>
+      </Section>
+    </div>
+    <div className='flex h-full   justify-center items-center gap-5 '  >
 
 
-      <Section yPadding=" self-center    " mx='mx-8'>
+      <Section yPadding=" self-center  flex w-full gap-5   " mx=''>
         <HeroOneButton
           title={
             <>
@@ -39,6 +50,15 @@ const Hero = () => (
             </Link>
           }
         />
+        
+        <img 
+            src="/assets/gif/ASHOKA.gif"
+            alt="Animated GIF" 
+            className=' w-3/2 rounded-xl overflow-hidden'
+        // Optional styling
+      />
+
+          
       </Section>
     </div>
 

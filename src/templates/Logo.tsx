@@ -11,9 +11,9 @@ const Logo = (props: ILogoProps) => {
     : 'font-semibold text-xl';
 
   return (
-    <span className={`inline-flex items-center text-pink-50 ${fontStyle}`}>
+    <span className={`inline-flex items-center text-white ${fontStyle}`}>
       <svg
-        className="mr-1 stroke-current text-pink-50"
+        className="mr-1 stroke-current text-white"
         xmlns="http://www.w3.org/2000/svg"
         width={size}
         height={size}
