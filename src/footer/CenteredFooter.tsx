@@ -14,11 +14,12 @@ const CenteredFooter = (props: ICenteredFooterProps) => (
     {props.logo}
 
     <nav>
-      <ul className="navbar mt-5 flex flex-row justify-center text-xl font-medium text-gray-800">
+      <ul className="navbar mt-5 flex flex-row justify-center gap-10 text-xl font-medium text-white">
         {props.children}
       </ul>
     </nav>
 
+      {/* {console.log(props.iconList)} */}
     <div className="mt-8 flex justify-center">
       <FooterIconList>{props.iconList}</FooterIconList>
     </div>
