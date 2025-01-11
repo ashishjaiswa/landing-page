@@ -1,8 +1,5 @@
 import Link from 'next/link';
-import Image from 'next/image';
 
-import { Background } from '../background/Background';
-import { CenteredFooter } from '../footer/CenteredFooter';
 import { Section } from '../layout/Section';
 import { Logo } from './Logo';
 import { NavbarTwoColumns } from '@/navigation/NavbarTwoColumns';
