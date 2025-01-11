@@ -12,7 +12,7 @@ const Hero = () => (
   <Background color=" from-cyan-300 to-slate-100  h-screen bg-header-pattern  bg-cover repeat-no    ">
     <div className='flex w-full  justify-center  '  >
 
-      <Section yPadding="  w-full  " mx='mx-8'>
+      <Section yPadding="  w-full  " mx='mx-2'>
         <NavbarTwoColumns logo={<Logo xl />}>
           <li>
             <Link href="/service">
@@ -33,10 +33,10 @@ const Hero = () => (
         </NavbarTwoColumns>
       </Section>
     </div>
-    <div className='flex h-full   justify-center items-center gap-5 '  >
+    <div className='flex h-full md:pt-0 pt-10 gap-5 '  >
 
 
-      <Section yPadding=" self-center  flex w-full gap-5 md:flex-row flex-col  " mx=''>
+      <Section yPadding=" md:self-center  flex w-full  gap-5 md:flex-row flex-col  " mx=''>
         <HeroOneButton
           title={
             <>
@@ -54,7 +54,7 @@ const Hero = () => (
         <img 
             src="/assets/gif/ASHOKA.gif"
             alt="Animated GIF" 
-            className='w-5/6 sm:w-3/4 md:w-full self-center rounded-xl overflow-hidden'
+            className='w-full sm:w-4/5 md:w-full self-center rounded-xl overflow-hidden'
         // Optional styling
       />
 
