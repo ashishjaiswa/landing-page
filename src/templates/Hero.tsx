@@ -36,7 +36,7 @@ const Hero = () => (
     <div className='flex h-full   justify-center items-center gap-5 '  >
 
 
-      <Section yPadding=" self-center  flex w-full gap-5   " mx=''>
+      <Section yPadding=" self-center  flex w-full gap-5 md:flex-row flex-col  " mx=''>
         <HeroOneButton
           title={
             <>
@@ -54,7 +54,7 @@ const Hero = () => (
         <img 
             src="/assets/gif/ASHOKA.gif"
             alt="Animated GIF" 
-            className=' w-3/2 rounded-xl overflow-hidden'
+            className='w-5/6 sm:w-3/4 md:w-full self-center rounded-xl overflow-hidden'
         // Optional styling
       />
 
