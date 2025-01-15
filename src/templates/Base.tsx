@@ -14,8 +14,6 @@ const Base = () => (
   <div className="text-gray-600 antialiased">
     <Meta title={AppConfig.title} description={AppConfig.description} />
     <div className='flex w-full  justify-center  '  >
-
-
     </div>
     <Hero />
     <VerticalFeatures />
