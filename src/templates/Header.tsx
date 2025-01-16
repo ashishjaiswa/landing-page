@@ -7,7 +7,7 @@ import { NavbarTwoColumns } from '@/navigation/NavbarTwoColumns';
 const Header = () => (
     <div className=' bg-header-pattern bg-top flex w-full justify-center '>
         <Section yPadding="   w-full  " mx='mx-2'>
-            <NavbarTwoColumns logo={<Logo xl />}>
+            <NavbarTwoColumns logo={<Logo  />}>
                 <li>
                     <Link href="/service">
                         Service
