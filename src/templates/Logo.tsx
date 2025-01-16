@@ -12,8 +12,8 @@ const Logo = () => {
 
   return (
     <img
-    className='h-16 my-3'
-    src="/assets/logo/logo-white2.png"
+    className='h-14 my-3'
+    src="/assets/logo/logo-white-3.png"
  />
   );
 };
