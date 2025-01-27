@@ -152,7 +152,7 @@ export default function ContactMain() {
                 </svg>
               </div>
               <h3 className="text-lg font-medium text-gray-900 mb-2">Email</h3>
-              <p className="text-gray-600">info@company.com</p>
+              <p className="text-gray-600">acs.ind@outlook.com</p>
             </div>
 
             {/* Phone */}
@@ -163,7 +163,7 @@ export default function ContactMain() {
                 </svg>
               </div>
               <h3 className="text-lg font-medium text-gray-900 mb-2">Phone</h3>
-              <p className="text-gray-600">+91 XXXXXXXXXX</p>
+              <p className="text-gray-600">+91 6232160066</p>
             </div>
           </div>
         </div>
